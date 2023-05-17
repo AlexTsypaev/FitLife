@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Login.PersonalAccaunt">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#14142C">
+            <Image Source="userimage.png" VerticalOptions="Start"/>
+            <Entry Placeholder="Имя"  VerticalOptions="Center" HorizontalTextAlignment="Center"></Entry>
+            <Entry Placeholder="Город"  VerticalOptions="Center" HorizontalTextAlignment="Center"></Entry>
+            <!--<Button Text="Hold" Clicked="Button_Clicked"/>
+            <Label x:Name="resultLocation"/>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

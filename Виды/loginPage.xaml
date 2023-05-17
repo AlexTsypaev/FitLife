@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Login.Виды.loginPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="#14142C">
+                <Label Text="Добро Пожаловать!" VerticalTextAlignment="Center" HorizontalOptions="Center" TextColor ="White" FontSize="36" FontFamily="Roboto" Margin="99,90,20,106">
+                </Label>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="80,0,42,15">
+                    <Image Source="Vector.png"/>
+                    <Entry Placeholder="Имя Пользователя" PlaceholderColor="White" FontSize="24" x:Name="EntryUser" Grid.Row="0" Keyboard="Default"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="60,0,32,70">
+                    <Image Source="Lock.png"/>
+                    <Entry Placeholder="Пароль                    " PlaceholderColor="White" FontSize="24" x:Name="EntryPassword" IsPassword="True" Grid.Row="1" Keyboard="Telephone"/>
+                </StackLayout>
+                <Button Text="Вход" BackgroundColor="#5267FF" TextColor="#FAFAFA" Clicked="Button_Clicked_1" CornerRadius="20" WidthRequest="150" HorizontalOptions="Center"/>
+                <Button Text="Создать аккаунт" BackgroundColor="#14142C" TextColor="#FAFAFA" Clicked="Button_Clicked" WidthRequest="200" HorizontalOptions="Center" Margin="0,160,200,0" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

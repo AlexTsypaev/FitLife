@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="Login.Виды.HomePage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="#1F1F44">
+            <maps:Map IsShowingUser ="True" x:Name="map"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <ImageButton Source="map_white.png" BackgroundColor="#1F1F44" Clicked="Button_Clicked_2" VerticalOptions="EndAndExpand" Margin="30,0,30,0"/>
+                <ImageButton Source="user.png" BackgroundColor="#1F1F44" Clicked="Button_Clicked_1" Margin="30,0,30,0" />
+                <ImageButton Source="Exit.png" BackgroundColor="#1F1F44" Clicked="Button_Clicked" Margin="30,0,30,0"/>
+                <!--<ImageButton Source="Lock.png" BackgroundColor="#1F1F44" Clicked="ImageButton_Clicked" Margin="30,0,30,0"/>-->
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
