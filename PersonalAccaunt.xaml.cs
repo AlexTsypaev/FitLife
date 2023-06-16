@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Login.Виды;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -13,6 +14,11 @@ namespace Login
         public PersonalAccaunt()
         {
             InitializeComponent();
+        }
+
+        async void Button_Clicked(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new HomePage();
         }
 
         //async void Button_Clicked(object sender, EventArgs e)

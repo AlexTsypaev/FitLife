@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitLife.Page2">
+    <Grid BackgroundColor="#14142C">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- элемент картинки -->
+        <ImageButton Clicked="ImageButton_Clicked" BackgroundColor="#14142C" Grid.Row="0" Source="userimage.png" HorizontalOptions="CenterAndExpand"/>
+
+        <!-- StackLayout для вывода введенных данных -->
+        <StackLayout x:Name="myStackLayout" Grid.Row="1" Margin="10,20,10,10" HorizontalOptions="End"/>
+
+        <!-- элемент ввода данных -->
+        <Entry x:Name="myEntry" Grid.Row="2" Placeholder="Введите текст"/>
+
+        <!-- кнопка для добавления данных в StackLayout -->
+        <Button Text="Отправить" Grid.Row="2" HorizontalOptions="End" Margin="0,0,10,0" Clicked="Button_Clicked"/>
+
+    </Grid>
+</ContentPage>

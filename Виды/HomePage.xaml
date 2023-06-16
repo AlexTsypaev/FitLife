@@ -9,6 +9,7 @@
                 <ImageButton Source="map_white.png" BackgroundColor="#1F1F44" Clicked="Button_Clicked_2" VerticalOptions="EndAndExpand" Margin="30,0,30,0"/>
                 <ImageButton Source="user.png" BackgroundColor="#1F1F44" Clicked="Button_Clicked_1" Margin="30,0,30,0" />
                 <ImageButton Source="Exit.png" BackgroundColor="#1F1F44" Clicked="Button_Clicked" Margin="30,0,30,0"/>
+                <ImageButton Source="messenger.png" BackgroundColor="#1F1F44" Clicked="ImageButton_Clicked" Margin="30,0,30,0"/>
                 <!--<ImageButton Source="Lock.png" BackgroundColor="#1F1F44" Clicked="ImageButton_Clicked" Margin="30,0,30,0"/>-->
             </StackLayout>
         </StackLayout>

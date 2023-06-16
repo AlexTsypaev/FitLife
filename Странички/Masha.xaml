@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Login.PersonalAccaunt">
+             x:Class="FitLife.Странички.Masha">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#14142C">
             <Image Source="userimage.png" VerticalOptions="Start" Margin="0,0,0,40"/>
@@ -19,23 +19,23 @@
                 <StackLayout>
                     <Label Text="Основная" HorizontalOptions="Center"/>
                     <Label Text="информация" HorizontalOptions="Center"/>
-                    <Entry Placeholder="Город"/>
-                    <Entry Placeholder="Имя"/>
+                    <Label Text="Мария" HorizontalOptions="Center"/>
+                    <Label Text="Карпинск" HorizontalOptions="Center"/>
                 </StackLayout>
                 <BoxView Grid.Column="1" Color="#1F1F44" CornerRadius="10"/>
                 <Label Grid.Column="1" Text="Достижения" HorizontalOptions="Center"/>
                 <BoxView Grid.Row="1" Color="#1F1F44" CornerRadius="10" />
                 <StackLayout Grid.Row="1">
                     <Label Grid.Row="1" Text="Предпочтения" HorizontalOptions="Center"/>
-                    <Entry Placeholder="Предпочтения"/>
+                    <Label Grid.Row="1" Text="Обожаю бегать!" HorizontalOptions="Center"/>
                 </StackLayout>
                 <BoxView Grid.Row="1"  Grid.Column="1" Color="#1F1F44" CornerRadius="10" />
                 <StackLayout Grid.Row="1"  Grid.Column="1">
-                    <Label Grid.Row="1" Grid.Column="1" Text="Общее" HorizontalOptions="Center"/>
-                    <Entry Placeholder="Общее"/>
+                    <Label Grid.Row="1" Text="Общее" HorizontalOptions="Center"/>
+                    <Label Grid.Row="1" Text="Свободная с 14:00 - 16:00" HorizontalOptions="Center"/>
                 </StackLayout>
                 <BoxView Grid.Row="2" Grid.ColumnSpan="2" Color="#1F1F44" CornerRadius="10" />
-                <Button Grid.Row="2" Grid.ColumnSpan="2" Background="#1F1F44" Text="Вернуться к карте" Clicked="Button_Clicked"/>
+                <Button Grid.Row="2" Grid.ColumnSpan="2" Background="#1F1F44" Text="Вернуться к карте" Clicked="Button_Clicked_1"/>
             </Grid>
         </StackLayout>
     </ContentPage.Content>
